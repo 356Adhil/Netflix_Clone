@@ -17,14 +17,14 @@
 
 .poster{
     cursor: pointer;
-    max-height: 320px;
+    max-height: 335px;
     margin-right: 10px;
     
 }
 
 .smallPoster {
     cursor: pointer;
-    max-height: 200px;
+    max-height: 205px;
     margin-right: 10px;
 }
 
