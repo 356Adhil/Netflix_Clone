@@ -50,7 +50,18 @@ function RowPost(props, index) {
           />
         ))}
       </div>
-      {urlId && <YouTube videoId={urlId.key} opts={opts} />}
+      {urlId && (
+        <div>
+          <i
+            onClick={() => {
+              setUrlId("");
+            }}
+            className='close'
+          >X</i>
+          <YouTube videoId={urlId.key} opts={opts} />
+        </div>
+      )}
+
     </div>
   );
 }
